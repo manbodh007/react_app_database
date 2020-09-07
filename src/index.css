@@ -28,8 +28,85 @@ body {
   color:white;
   font-size:24px;
   font-weight: bold;
+  align-items: center;
 }
-.right-nav>div{
+.right-nav div{
   margin-left:15px;
   cursor: pointer;
+  color:white;
+  text-decoration:none;
 }
+.user-avatar img{
+  width:50px;
+}
+
+.student-list{
+  width:80%;
+  margin-left:10%;
+}
+.student{
+  display: flex;
+  margin-top:10px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0px;
+}
+.student-dp>img{
+  width:200px;
+}
+.student-info>div{
+  display: flex;
+  align-items: center;
+}
+.student-info div span{
+  margin:5px 20px;
+}
+.student-info>div h2{
+  margin-right:10px;
+  font-weight: normal;
+  color:wheat;
+}
+.form{
+  width:30%;
+  margin: 10% 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: violet;
+  padding: 50px;
+}
+ .form>input{
+   padding: 10px;
+   font-size:16px;
+   margin-bottom: 20px;
+ }
+ .form h2{
+   text-align: center;
+ }
+ .login-btn{
+   padding: 10px;
+   background-color: royalblue;
+   color:white;
+   font-size:20px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ .alert {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  align-self: flex-start;
+}
+
+.error-dailog {
+  color: #721c24;
+  background-color: #cbf122;
+  border-color: #f5c6cb;
+}
+.success-dailog {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
