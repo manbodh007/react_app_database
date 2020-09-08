@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+const studentController = require('../controllers/student');
+const passport = require('passport');
+router.post('/create',passport.authenticate('jwt',{session:false}),studentController.create);
+router.post('/update',passport.authenticate('jwt',{session:false}),studentController.update);
+router.get('/delete',passport.authenticate('jwt',{session:false}),studentController.delete);
+router.get('/all',studentController.allStudents);
+// router.get('/download/data',studentController.downloadCSV);
+module.exports = router;
