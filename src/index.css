@@ -31,10 +31,12 @@ body {
   align-items: center;
 }
 .right-nav div{
-  margin-left:15px;
+  margin-left:50px;
   cursor: pointer;
   color:white;
   text-decoration:none;
+  display: flex;
+  align-items: center;
 }
 .user-avatar img{
   width:50px;
@@ -49,6 +51,8 @@ body {
   margin-top:10px;
   padding: 20px;
   box-shadow: 0px 0px 3px 0px;
+  justify-content: space-between;
+  align-items: center;
 }
 .student-dp>img{
   width:200px;
@@ -109,4 +113,88 @@ body {
   background-color: #d4edda;
   border-color: #c3e6cb;
 }
+.downloadBtn{
+  padding:5px;
+  height: 30px;
+}
+.student-form{
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  left: 44%;
+    top: 8%;
+    width: 250px;
+    padding: 20px;
+    background: lightgreen;
+}
+.student-form input{
+  padding: 10px;
+}
+.student-form .submit-btn{
+  margin-top: 5px;
+  font-size:20px;
+  font-weight: bold;
+  background-color: blue;
+  color:white;
+}
 
+.interview-list{
+  width:40%;
+}
+.interview{
+  padding: 10px;
+  border:1px solid lightgray;
+  background: #b3aeae
+}
+.interview-list-container{
+  display: flex;
+  margin: 5%;
+  flex-direction: column;
+  align-items: center;
+}
+.interview-list-container .heading{
+  width:40%;
+ padding: 10px;
+ 
+ margin-top:20px;
+ font-size:30px;
+ font-weight: bold;
+}
+
+.interview-form{
+  width:40%;
+  flex-direction: column;
+  padding: 40px;
+  background-color: rgb(22, 115, 168);
+  box-sizing: border-box;
+  position:absolute ;
+  
+}
+.interview-form input{
+  padding: 10px;
+  border:1px solid grey;
+  font-size:16px;
+ 
+}
+.interview-form button{
+  width: 100%;
+  padding: 10px;
+  margin-top:10px;
+  font-size:15px;
+ font-weight: bold;
+}
+.interview-list .students{
+  background-color: lightgray;
+  padding:10px;
+}
+
+.interview-list .students .list{
+  margin:10px;
+  display: flex;
+  justify-content: space-between;
+}
+.interview-list .students .upper-list{
+  margin:10px;
+  display: flex;
+  justify-content: space-between;
+}

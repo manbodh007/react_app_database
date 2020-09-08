@@ -11,3 +11,11 @@ export const CLEAR_AUTH = 'CLEAR_AUTH';
 // SIGN - UP
 export const SIGN_UP_SUCCESS = 'SIGN_UP_SUCCESS';
 export const SIGN_UP_FAILED = 'SIGN_UP_FAILED';
+export const CREATE_STUDENT = 'CREATE_STUDENT';
+// fetch interviews
+export const FETCH_INTERVIEW = 'FETCH_INTERVIEW';
+export const CREATE_INTERVIEW = 'CREATE_INTERVIEW';
+export const CHANGE_INTERVIEW_RESULT = 'FETCH_INTERVIEW_RESULT';
+
+//select student for interview
+export const SELECT_FOR_INTERVIEW = 'SELECT_FOR_INTERVIEW';
