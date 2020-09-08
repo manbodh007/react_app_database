@@ -1,7 +1,5 @@
 const Student = require("../models/student");
-const fs = require("fs");
-const csv = require("fast-csv");
-const ws = fs.createWriteStream("public/data.csv");
+
 
 module.exports.create = async function (req, res) {
   try {
@@ -77,13 +75,4 @@ module.exports.allStudents = async function (req, res) {
     });
   }
 };
-// module.exports.downloadCSV = async function (req, res) {
-//   try {
-      
-//   } catch (err) {
-//     console.log("error in csv", error);
-//     return res.json(500, {
-//       message: "error to download csv",
-//     });
-//   }
-// };
+
