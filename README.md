@@ -1,4 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Database is handling through a nodejs api
+###  `pull api from '/src/test_API' directory and run on your local machine using 'npm start' command`
+## '`api setup`
+first pull the api and run command 'npm install' to  install all needed files
+
+## app setup 
+run command 'npm install'
+then run command npm start
+
+## about
+this app is a database setup for a interviewer which can add student into the data base and manage interview of all type of interview
+this students and he/she can download a student report in .csv format,
+
 
 ## Available Scripts
 
